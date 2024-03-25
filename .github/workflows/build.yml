@@ -51,4 +51,4 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: hactool-${{ matrix.job_name }}
-        path: hactool*
+        path: hacPack*
